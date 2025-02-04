@@ -1,0 +1,266 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", serif;
+     font-optical-sizing: auto;
+}
+
+header a {
+    margin: 1rem;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    padding: 1.1rem;
+    font-size: small;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+    
+}
+
+
+main {
+    width: 100%;
+}
+
+.header-icon {
+    width: 4rem;
+    display: flex;
+}
+
+.hallmark {
+    /* width: 4rem; */
+    display: flex;
+    align-items: center;
+   
+}
+
+.hallmark a {
+    font-size: large;
+   text-decoration: none;
+   font-weight: 600;
+   color: black;
+}
+
+.for-free {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0f03b3;
+    
+}
+
+.register {
+    font-size: large;
+    font-weight: 600;
+    color: black;
+}
+
+.hallmark h3 {
+    display: none;
+   
+}
+
+
+
+.faster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(./image/L12_Tour_Header_DESKTOP-2\ bcd.avif);
+    background: #acabc2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0rem 10rem 4rem 7rem;
+    width: 100%;
+    height: 90vh;
+    color: white;
+    font-weight: 200;
+    font-size: 2rem;
+    
+}
+
+.faster a {
+    color: white;
+    background: #0f03b3;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+}
+
+.black-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    width: 100%;
+}
+
+.focus {
+    width: 85%;
+}
+
+.focus h2 {
+    font-size: 3rem;
+    padding: 4rem 0rem;
+}
+
+.focus p {
+    font-size: 1.3rem;
+    padding: 0rem 34rem 4rem 0rem;
+}
+
+.standalone {
+    display: flex;
+    border: 5px solid saddlebrown;
+    width: 75%;
+    height: 47vh;
+}
+
+.playability {
+    width: 50%;
+    border: 6px solid palegoldenrod;
+}
+
+.playability_p {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 6px solid palegoldenrod;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 3rem;
+}
+
+.big_image {
+    border: 2px solid violet;
+    width: 90%;
+    height: 100vh;
+    margin: 7rem 0rem;
+    padding: rem;
+}
+
+img {
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+}
+
+.expressive {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #4c47f4;
+    height: fit-content;
+    color: white;
+    width: 100%;
+}
+
+.multi_image {
+    display: flex;
+     height: 100vh;
+    width: 83%;
+    margin-bottom: 2rem;
+}
+
+.multi_image_a {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   
+}
+
+
+
+.multi_image a {
+    display: flex;
+    font-size: 1.5rem; 
+    color: white;
+    margin: 1.7rem 0rem;
+}
+
+.multi_image_the-image {
+    width: 60%;
+    height: 77vh;
+}
+
+.multi_image_the-image p {
+    font-size: 1.5rem;
+    width: 60%;
+    height: 77vh;
+}
+
+.undearline {
+    text-decoration: none;
+}
+
+
+.heart {
+    width: 85%;
+}
+
+.heart h2 {
+    font-size: 3rem;
+    padding: 4rem 4rem;
+}
+
+.heart p {
+    font-size: 1.3rem;
+    padding: 0rem 34rem 4rem 0rem;
+    margin: 0rem 3rem 4rem 4rem;
+}
+
+.construction {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+}
+
+.construction_image {
+    width: 100%;
+    height: 110vh;
+    border: 2px solid burlywood;
+}
+
+.evolve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    border: 3px solid;
+    padding: 0rem 4rem;
+    margin: 3rem 0rem;
+}
+
+.evolve_image {
+    width: 50%;
+    height: 55vh;
+    border: 3px solid skyblue;
+}
+
+.evolve_h_p {
+    width: 50%;
+    padding: 3rem;
+}
+
+.lntuitive {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EEEEEE;
+    height: fit-content;
+    width: 100%;
+}

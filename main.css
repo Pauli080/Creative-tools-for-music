@@ -1,0 +1,263 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", serif;
+     font-optical-sizing: auto;
+}
+
+header a {
+    margin: 1rem;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    padding: 1.1rem;
+    font-size: small;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+    
+}
+
+
+main {
+    width: 100%;
+}
+
+.header-icon {
+    width: 4rem;
+    display: flex;
+}
+
+.hallmark {
+    /* width: 4rem; */
+    display: flex;
+    align-items: center;
+   
+}
+
+.hallmark a {
+    font-size: large;
+   text-decoration: none;
+   font-weight: 600;
+   color: black;
+}
+
+.for-free {
+    font-weight: 700;
+    color: #0f03b3;
+    
+}
+
+.register {
+    font-size: large;
+    font-weight: 600;
+    color: black;
+}
+
+.hallmark h3 {
+    display: none;
+   
+}
+
+
+
+.faster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(./svg/move-hero_A3T6xpm_ibzfjUU.avif)  ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    width: 100%;
+    height: 90vh;
+    color: white;
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-bottom: 7rem;
+}
+
+.faster a {
+    color: aliceblue;
+}
+
+.ableton__1 {
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    padding: 0rem 6.5rem;
+}
+
+.ableton__1 h2 {
+    font-size: 2.3rem;
+}
+
+.ableton__1 a {
+   padding:0.7rem;
+   text-decoration: none;
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: #0f03b3;
+
+}
+
+.tutorials {
+    background: #00d2be;
+    width: fit-content;
+    padding: 0.2rem;
+}
+
+.artists {
+    background: #fed134;
+    font-size: 1rem;
+    font-weight: 200;
+    width: fit-content;
+    padding: 0.2rem;
+    margin: 0%;
+}
+
+.image__1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0rem 5rem;
+    
+}
+
+.image__2 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+img {
+    width: 100%;
+   
+}
+
+.image__2 p {
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 20px 20px 0px;
+}
+
+
+@media (max-width: 1430px) {
+
+    .hallmark a {
+    font-size: 1rem;
+  
+}
+}
+
+@media (max-width: 1280px) {
+
+    .for-free {
+        font-size: small;
+    }
+   .register {
+    font-size: small;
+    
+   }
+
+   .hallmark a {
+    font-size: small;
+   text-decoration: none;
+   font-weight: 600;
+   color: black;
+   
+}
+
+.faster {
+    font-size: 2rem;
+    margin-bottom: rem;
+    justify-content: flex-start;
+    padding: 6rem;
+}
+
+.ableton__1 a {
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 1120px) {
+    .ableton__1 h2 {
+    font-size: 1.4rem;
+    
+}
+
+.image__2 p {
+    font-size: small;
+    font-weight: bold;
+    margin: 20px 20px 20px 0px;
+}
+
+}
+
+@media (max-width: 1025px) {
+    .image__1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0rem 1rem;
+    
+}
+
+.live {
+    display: none;
+}
+ .for-free {
+        display: none;
+    }
+   .register {
+    display: none;
+    
+   }
+
+   .ableton__1 a {
+   display: none;
+}
+
+.ableton__1 {
+    padding: 3rem;
+    
+}
+
+.hallmark h3 {
+    display: flex;
+}
+}
+
+@media (max-width: 770px) {
+     .faster {
+    justify-content: flex-start;
+    padding: 4rem;
+    height: 70vh;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+}
+
+@media (max-width: 575px) {
+     .image__1 {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 0rem 0rem;
+    
+}
+ .faster {
+    justify-content: flex-start;
+    padding: 4rem;
+    height: 50vh;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+}
+
