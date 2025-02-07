@@ -82,8 +82,8 @@ main {
     width: 100%;
     height: 90vh;
     color: white;
-    font-weight: 200;
-    font-size: 2rem;
+   
+    font-size: 1.7rem;
     margin-bottom: 7rem;
 }
 
@@ -92,6 +92,14 @@ main {
     background: #0f03b3;
     width: fit-content;
     padding: 0.5rem 1rem;
+     font-weight: bolder;
+}
+
+.faster h1 {
+    color: white;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+     font-weight: 500;
 }
 
 span {
@@ -338,7 +346,6 @@ span {
     width: 50%;
      height: 30vh;
      margin: 1rem 0rem;
-     
 }
 
 .discover {
@@ -429,7 +436,11 @@ span {
 .similarity {
     width: 100%;
     padding-left: 8rem;
-    font-size: 2.2rem;
+    font-size: 1.2rem;
+}
+
+.mumu-image {
+    width: 100%;
 }
 
 
@@ -438,6 +449,7 @@ span {
     display: flex;
     flex-direction: column;
     width: 83%;
+    
 }
 
 .generate {
@@ -445,14 +457,18 @@ span {
 }
 
 .transfarm_big {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     width: 100%;
-    padding: 1rem;
+    height: 70hv;
+    border: 3px solid;
+    padding: 0rem;
 }
 
 .additional_big {
     width: 83%;
+    
+    border: 2px solid red;
 }
 
 .live {
@@ -460,9 +476,467 @@ span {
 }
 
 .Jump-to {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.Jump-to a {
+    font-size: 10px;
+    font-weight: 500;
+    color: blue;
+}
+
+
+}
+
+@media (max-width: 780px) {
+     .updated {
+    height: 30vh;
+}
+
+.updated__02 a {
+    font-weight: 700;
+    font-size: 1rem;
+    
+    
+}
+
+.updated__02 h3 {
+   
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.get-lost-in-live {
+    
+    padding: 0rem 4rem;
+    font-size: 1.0rem;
+    align-items: last baseline;
+    height: 15vh;
+}
+
+.big_image {
+    height: 60vh;
+}
+
+.the_image {
+    width: 100%;
+    height: 50vh;
+}
+
+.big_image p {
+    width: 100%;
+}
+
+.possible {
+    height: 25vh;
+    font-size: 1.5rem;
+    justify-content: center;
+    padding: 0rem 4rem;
+}
+
+.possible h3 {
+    font-weight: 700;
+    font-size: 2.3rem;
+
+}
+
+.play-freely__2 {
+    width: 100%;
+}
+
+.play-freely__2 h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 5rem 4rem;
+}
+
+.generate {
+   margin-top: 1.4rem;
+}
+
+.additional {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 50%;
+    height: 30vh;
+    padding: 1rem;
+    /* border: 2px solid; */
+    
+}
+
+.transfarm {
+    height: 40vh;
+    align-items: center;
+    padding: 0rem;
+    margin-top: 1rem;
+}
+
+.additional_big {
+    width: 100%;
+    border: 2px solid hotpink;
+    height: 70vh;
+    padding: 0rem 0rem;
+}
+
+.additional-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.transfarm_big {
+    padding: 0rem 0rem;
+    border: 2px solid navy;
+    height: 50rem;
+}
+
+.transfarm_big {
+    flex-direction: column-reverse;
+}
+
+.pppp {
+    padding: 0rem 4rem;
+}
+
+.surprise {
+    padding: 3rem;
+    font-size: 1.3rem;
+}
+
+.lose_yourself {
+    width: 100%;
+    height: 40vh;
+    padding: 0rem 0rem 2rem 4rem;
+    margin: 8rem 0rem;
+} 
+
+.lose_yourself h3 {
+    font-size: 2rem;
+}
+
+.lose_yourself__2 h3 {
+    font-size: 2rem;
+}
+
+.lose_yourself__2 {
+    width: 100%;
+    height: 30vh;
+    padding: 0rem 0rem 2rem 4rem;
+    margin: 2rem 0rem;
+} 
+
+.lose_yourself__2 p {
+    margin: 2rem 2rem 2rem 0rem;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.lose_yourself__2 a {
+     color: blue;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+.lose_yourself p {
+    margin: 2rem 2rem 2rem 0rem;
+    width: 90%;
+    font-size: 1.3rem;
+}
+
+.program_each_listen {
+    padding: 0rem 0rem 0rem 4rem;
+}
+
+.program {
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+.each {
+    width: 100%;
+     margin: 2rem 0rem;
+}
+
+.listen {
+     width: 90%;
+     margin: 1rem 0rem;
+}
+
+.apply {
+    width: 85%;
+     height: 30vh;
+     margin: 1rem 0rem;
+     
+}
+
+.image_div {
+    flex-direction: column;
+    height: 120vh;
+    margin: 3rem 0rem;
+}
+
+.image_div__0 {
+    width: 100%;
+    height: 90vh;
+    margin-top: 0rem;
+    
+}
+
+.image_div__2 {
+    width: 100%;
+    padding: 4rem;
+    font-size: 1.2rem;
+}
+
+.big-image_div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110vh;
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+.big-image_div_1 {
+    height: 60%;
+    margin-bottom: 4rem;
+}
+
+.search {
+    margin-left: 2rem;
+}
+
+.similarity {
+    padding-left: 4rem;
+    font-size: 1.5rem;
+}
+
+.intuitively_header {
+   font-size: 1.5rem;
+   padding: 2rem 8rem;
+   width: 100%;
+}
+
+}
+
+
+@media (max-width: 560px) {
+   .faster {
+    justify-content: flex-start;
+    padding: 6rem 0rem 4rem 3rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.updated {
+    height: 20vh;
+}
+
+.updated__02 {
+    padding: 2rem;
+   
+}
+
+.updated__02 a {
+    font-size: 1.2rem;
+}
+
+.get-lost-in-live {
+    display: flex;
+    width: 100%;
+    padding: 2rem 2rem;
+    font-size: 1.2rem;
+    align-items: center;
+    height: fit-content;
+}
+
+.possible {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 2rem;
+}
+
+.possible h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.Jump-to {
+    font-size: larger;
+    flex-direction: column;
+}
+
+.Jump-to a {
+    margin: 0.4rem 0.5rem;
+    font-size: large;
+}
+
+.play-freely__2 h2 {
+    font-size: 1.9rem;
+}
+
+
+.generate {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.generate h2 {
+   font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.transfarm {
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    padding: 3rem;
+    border: 3px solid yellow;
+}
+
+
+
+.additional {
+    width: 100%;
+    padding: 0;
+    height: 40vh;
+   
+}
+
+.intuitively_header {
+    font-size: medium;
+    padding: 2rem 2rem;
+}
+
+/* .transfarm {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 0rem;
+    
+} */
+
+.transfarm_big {
+    width: 100%;
+    height: fit-content;
+    margin: 2rem 0rem;
+}
+
+.additional_big {
+   
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 0rem;
+    
+}
+
+.lost-and_found {
+    display: grid;
+    grid-template-columns: repeat(1 , 100%);
+
+}
+
+.menu_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.hallmark a {
+    display: flex;
+}
+
+.live {
+    display: flex;
+   
+}
+
+.live a {
+    font-size: smaller;
+   
+}
+
+header {
+    display: flex;
+    padding: 1rem;
+    
+
+    height: fit-content;
+    
+}
+
+header a {
+    margin: 2px;
+}
+
+.menu_header__2 {
+    display: none;
+}
+
+ .lose_yourself__2 {
+    width: 100%;
+    /* height: fit-content; */
+    padding: 0rem 0rem 2rem 4rem;
+    margin: 1rem 0rem;
+} 
+
+.lose_yourself {
+  height: 30rem;
+  margin: 1rem 0rem;
+  height: 43vh;
+} 
+
+.lose_yourself h3 {
+  font-size: larger;
+} 
+
+.lose_yourself p {
+  font-size: small;
+  padding: 0rem 0rem 0rem 0rem;
+} 
+
+
+
+.lose_yourself__2 h3 {
+  font-size: larger;
+} 
+
+.lose_yourself__2 p {
+  font-size: small;
+  padding: 0rem 0rem 0rem 0rem;
+} 
+
+p {
     font-size: small;
-    font-weight: 100;
 }
 
 
+.search_browse {
+    flex-direction: column;
+    border: 4px solid ;
+    gap: 1rem;
+    
+    padding-right: 2rem;
+    /* height: 70rem; */
 }
+
+.search {
+    width: 100%;
+    font-size: 1.2rem;
+    
+}
+
+
+
+
+.big-image_div {
+    height: fit-content;
+}
+
+}
+
