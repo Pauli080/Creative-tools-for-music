@@ -211,7 +211,7 @@ img {
 }
 
 .live {
-    display: none;
+    display: flex;
 }
  .for-free {
         display: none;
