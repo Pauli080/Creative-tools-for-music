@@ -73,25 +73,38 @@ main {
 .faster {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background: url(./image/L12_Tour_Header_DESKTOP-2\ bcd.avif);
-    background: #acabc2;
+    /* justify-content: center; */
+    background: url(./images/P3_FAAG_audio_interface_TH_push_bg.avif);
+    /* background: #acabc2; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 0rem 10rem 4rem 7rem;
+    padding: 7rem 10rem 4rem 5rem;
     width: 100%;
     height: 90vh;
-    color: white;
+    color: #61ff7a;
     font-weight: 200;
     font-size: 2rem;
     
+}
+
+.faster h1 {
+    width: fit-content;
+    font-size: 7dvi;
+    padding: 0.5rem 0rem;
+}
+
+.faster p {
+    color: white;
+    width: fit-content;
+    padding: 0.5rem 0rem;
 }
 
 .faster a {
     color: white;
     background: #0f03b3;
     width: fit-content;
+    text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
@@ -121,28 +134,24 @@ main {
 
 .standalone {
     display: flex;
-    border: 5px solid saddlebrown;
     width: 75%;
     height: 47vh;
 }
 
 .playability {
     width: 50%;
-    border: 6px solid palegoldenrod;
 }
 
 .playability_p {
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: 6px solid palegoldenrod;
     /* align-items: center; */
     justify-content: center;
     padding: 3rem;
 }
 
 .big_image {
-    border: 2px solid violet;
     width: 90%;
     height: 100vh;
     margin: 7rem 0rem;
@@ -150,7 +159,6 @@ main {
 }
 
 img {
-    border: 1px solid;
     width: 100%;
     height: 100%;
 }
@@ -173,14 +181,16 @@ img {
     margin-bottom: 2rem;
 }
 
+.multi_image_the-image_pro {
+    display: none;
+}
+
 .multi_image_a {
     display: flex;
     flex-direction: column;
     width: 40%;
    
 }
-
-
 
 .multi_image a {
     display: flex;
@@ -204,6 +214,10 @@ img {
     text-decoration: none;
 }
 
+.configurations_bg {
+    background: #c8befb;
+}
+
 
 .heart {
     width: 85%;
@@ -220,17 +234,38 @@ img {
     margin: 0rem 3rem 4rem 4rem;
 }
 
+.one-push {
+    width: 85%;
+    padding-bottom: 3rem;
+     background: #c8befb;
+}
+
+.one-push h2 {
+    font-size: 3rem;
+    padding: 4rem 4rem;
+}
+
+.one-push p {
+    font-size: 1.3rem;
+    padding: 0rem 34rem 2rem 0rem;
+    margin: 0rem 3rem 0rem 4rem;
+}
+
+.one-push a {
+    font-size: 1.3rem;
+    padding: 0rem 34rem 2rem 0rem;
+    margin: 0rem 3rem 0rem 4rem;
+}
+
 .construction {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 2px solid;
 }
 
 .construction_image {
     width: 100%;
     height: 110vh;
-    border: 2px solid burlywood;
 }
 
 .evolve {
@@ -239,7 +274,6 @@ img {
     align-items: center;
     width: 100%;
     height: 60vh;
-    border: 3px solid;
     padding: 0rem 4rem;
     margin: 3rem 0rem;
 }
@@ -247,7 +281,6 @@ img {
 .evolve_image {
     width: 50%;
     height: 55vh;
-    border: 3px solid skyblue;
 }
 
 .evolve_h_p {
@@ -263,4 +296,358 @@ img {
     background: #EEEEEE;
     height: fit-content;
     width: 100%;
+}
+
+.grid-image {
+    width: 100%;
+    height: fit-content;
+}
+
+.grid-image-1 {
+    display: flex;
+    margin: 3rem 6rem 3rem 0rem;
+    height: 90vh;
+}
+
+.grid-image-2 {
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+    height: 80vh;
+}
+
+.grid-image-3 {
+    display: flex;
+    margin: 3rem;
+    height: 70vh;
+}
+
+.grid-rew {
+    width: 50%;
+    height: 70vh;
+}
+
+.grid-rew-2 {
+    padding: 5rem 0rem 0rem 5rem;
+    width: 50%;
+    height: 100%;
+}
+
+.push_push {
+    display: flex;
+    gap: 5rem;
+    padding: 0rem 5rem;
+    width: 100%;
+    border: 4px solid;
+    background: #c8befb;
+}
+
+.push-image {
+    width: 100%;
+    height: 30rem;
+}
+
+.push-div {
+    width: 50%;
+}
+
+.push_push h3 {
+     font-size: 1.5rem;
+     padding: 1rem 1rem 1rem 0rem;
+}
+
+.push_push p {
+     font-size: 1.3rem;
+     padding: 0rem 1rem 1rem 0rem;
+}
+
+.push_push a {
+     font-size: 1.3rem;
+     padding: 0rem 1rem 1rem 0rem;
+}
+
+hr {
+    background: black;
+    height: 4px;
+}
+
+.upgrade_kit {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 6rem;
+}
+
+.upgrade_kit_image {
+    width: 55%;
+}
+
+.upgrade_kit_pp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 10rem 0rem 2rem;
+    width: 45%;
+}
+
+.upgrade_kit_pp h2 {
+     font-size: 1.5rem;
+     padding: 1rem;
+}
+
+.upgrade_kit_pp p {
+     font-size: 1.3rem;
+     padding: 1rem;
+}
+
+.upgrade_kit_pp a {
+     font-size: 1.3rem;
+     padding: 1rem;
+     text-decoration: none;
+     color: blue;
+}
+
+.creata-a-new-sat {
+    display: none;
+}
+
+
+@media (max-width: 1030px) {
+    .menu_header__2 {
+        display: none;
+    }
+
+    .faster p {
+    font-size: 1.3rem;
+
+}
+
+.faster a {
+    font-size: 1.4rem;
+}
+
+.focus {
+    width: 85%;
+}
+
+.focus h2 {
+    font-size: 3rem;
+    padding: 4rem 0rem;
+}
+
+.focus p {
+    font-size: 1.3rem;
+    padding: 0rem 3rem 4rem 0rem;
+}
+
+.standalone {
+    display: flex;
+    width: 85%;
+    height: 47vh;
+}
+
+.multi_image_a {
+    display: none;
+}
+
+.multi_image {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    padding: 0rem 5rem;
+    margin-bottom: 2rem;
+}
+
+
+.multi_image_the-image {
+    display: none;
+}
+
+.multi_image_the-image_pro {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 2rem 0rem;
+    height: 40vh;
+}
+
+.sensitive_pro {
+    width: 50%;
+}
+
+.multi_image_the-image_pro p {
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1rem 0rem;
+    height: 40vh;
+}
+
+.expressive {
+    
+    justify-content: flex-start;
+    height: 285vh;
+}
+
+.heart p {
+    font-size: 1.3rem;
+    padding: 0rem 0rem 4rem 0rem;
+    margin: 0rem 0rem 4rem 4rem;
+}
+
+.evolve {
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
+}
+
+.evolve_image {
+    width: 100%;
+    height: 55vh;
+}
+
+.evolve_h_p {
+    width: 100%;
+    padding: 4rem;
+}
+
+.one-push h2 {
+    font-size: 2rem;
+    padding: 4rem 4rem;
+}
+
+.one-push p {
+    font-size: 1.1rem;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.one-push a {
+    font-size: 1.1rem;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.upgrade_kit {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130vh;
+    margin-bottom: 6rem;
+}
+
+.upgrade_kit_image {
+    width: 100%;
+}
+
+.upgrade_kit_pp {
+    padding: 0rem 0rem 0rem 4rem;
+    width: 100%;
+}
+
+}
+
+
+@media (max-width: 720px) {
+
+    .multi_image_the-image_pro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem 0rem;
+    height: 55vh;
+}
+
+.sensitive_pro {
+    width: 100%;
+    /* height: 60vh; */
+}
+
+.expressive {
+    
+    justify-content: flex-start;
+    height: 375vh;
+}
+
+.creata-a-new-sat {
+    display: flex;
+}
+
+.grid-image {
+    border: 6px solid black;
+    width: 100%;
+    height: 650vh;
+}
+
+.grid-image-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 3rem 3rem 3rem;
+    height: 215vh;
+}
+
+.grid-image-2 {
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+    height: 90vh;
+}
+
+.grid-image-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    height: 255vh;
+}
+
+.grid-rew {
+    width: 100%;
+    height: 110vh;
+    padding: 1rem 0rem;
+}
+
+.grid-rew-2 {
+    margin-top: 10rem;
+    padding: 0rem 0rem;
+    width: 100%;
+    height: 60vh;
+}
+
+.image-image {
+    height: 60vh;
+}
+
+.small-image {
+    width: 10rem;
+    height: 10rem;
+}
+
+.standalone {
+    flex-direction: column;
+    height: 67vh;
+    margin: 1rem 0rem;
+}
+
+.playability {
+    width: 100%;
+}
+
+.playability_p {
+    width: 100%;
+}
+
+.big_image {
+    height: 70vh;
+    margin: 6rem 0rem;
+}
+
+.live a {
+    font-size: small;
+}
+
+.hallmark a {
+    font-size: small;
+   font-weight: 500;
+}
+
 }
