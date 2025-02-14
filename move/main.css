@@ -1,153 +1,368 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     font-family: "Roboto", serif;
-     font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
 }
 
 header a {
-    margin: 1rem;
-    text-decoration: none;
+  margin: 1rem;
+  text-decoration: none;
 }
 
 header {
-    display: flex;
-    padding: 1.1rem;
-    font-size: small;
-    align-items: center;
-    justify-content: space-between;
-    height: 11vh;
-    
+  display: flex;
+  padding: 1.1rem;
+  font-size: small;
+  align-items: center;
+  justify-content: space-between;
+  height: 11vh;
 }
 
-
 main {
-    width: 100%;
+  width: 100%;
 }
 
 .header-icon {
-    width: 4rem;
-    display: flex;
+  width: 4rem;
+  display: flex;
 }
 
 .hallmark {
-    /* width: 4rem; */
-    display: flex;
-    align-items: center;
-   
+  /* width: 4rem; */
+  display: flex;
+  align-items: center;
 }
 
 .hallmark a {
-    font-size: large;
-   text-decoration: none;
-   font-weight: 600;
-   color: black;
+  font-size: large;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
 }
 
 .for-free {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #0f03b3;
-    
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0f03b3;
 }
 
 .register {
-    font-size: large;
-    font-weight: 600;
-    color: black;
+  font-size: large;
+  font-weight: 600;
+  color: black;
 }
 
 .hallmark h3 {
-    display: none;
-   
+  display: none;
 }
 
-
-
 .faster {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    /* background: url(../image/L12_Tour_Header_DESKTOP-2\ bcd.avif); */
-    background: black;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 10rem 0rem 0rem 0rem;
-    width: 100%;
-    height: 230vh;
-    color: white;
-   
-    font-size: 1.5rem;
-    margin-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* background: url(../image/L12_Tour_Header_DESKTOP-2\ bcd.avif); */
+  background: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10rem 0rem 0rem 0rem;
+  width: 100%;
+  height: 230vh;
+  color: white;
+
+  font-size: 1.5rem;
+  margin-bottom: 7rem;
 }
 
 .faster a {
-    color: white;
-    background: #0f03b3;
-    width: fit-content;
-    padding: 0.5rem 1rem;
-     font-weight: bolder;
+  color: white;
+  background: #0f03b3;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
 }
 
 .faster h1 {
-    color: white;
-    width: fit-content;
-    padding: 0.5rem 1rem;
-    font-weight: 500;
-    font-size: 5rem;
+  color: white;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 5rem;
 }
 
 .move_image {
-    border: 2px solid;
-    width: 70rem;
-    height: 50rem;
-    margin-top: 7rem;
+  border: 2px solid;
+  width: 85%;
+  height: 110vh;
+  margin: auto;
+  margin-top: 7rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
 }
 
 .instincts {
-    border: 3px solid turquoise;
-    margin: 0rem 4rem;
-    height: 60vh;
+  border: 3px solid turquoise;
+  margin: 0rem 4rem;
+  height: 60vh;
 }
 
 .instincts h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .instincts p {
-    font-size: 1.3rem;
-    padding: 7rem 40rem 0rem 0rem;
+  font-size: 1.3rem;
+  padding: 7rem 40rem 0rem 0rem;
+}
+
+.instincts_black {
+  border: 3px solid turquoise;
+  color: white;
+  margin: 0rem 4rem;
+  height: 60vh;
+}
+
+.instincts_black h2 {
+  font-size: 3rem;
+}
+
+.instincts_black p {
+  font-size: 1.3rem;
+  padding: 7rem 40rem 0rem 0rem;
 }
 
 .standalone {
-    display: flex;
-    border: 4px solid teal;
-    margin: 1rem 0rem;
-    width: 100%;
-    height: 80vh;
+  display: flex;
+
+  border: 4px solid teal;
+  margin: 1rem 0rem;
+  width: 100%;
+  height: 80vh;
+}
+
+.standalone__other {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 4px solid teal;
+  margin: 1rem 0rem;
+  width: 100%;
+  height: 80vh;
 }
 
 .standalone-image {
-    border: 3px solid olive;
-    width: 60%;
+  border: 3px solid olive;
+  width: 60%;
 }
 
 .standalone-pp {
-    display: flex;
-    flex-direction: column;
-    padding: 0rem 2rem;
-    justify-content: center;
-    width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem;
+  justify-content: center;
+  width: 40%;
 }
 
 .standalone-pp p {
-    margin-top: 3rem;
-    font-size: 1.3rem;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+}
+
+.learn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 7rem 0rem 15rem 0rem;
+}
+
+.overthink {
+  background: #00ffaf;
+  padding-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.pitches {
+  display: flex;
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+  border: 2px solid;
+}
+
+.pitches__img {
+  width: 50%;
+}
+
+.pitches__pp {
+  width: 50%;
+  padding: 4rem 1rem 0rem 1rem;
+}
+
+.pitches__pp p {
+  font-size: 1.3rem;
+  padding: 2rem 0rem;
+}
+
+.selections {
+  background: black;
+  padding: 10rem 0rem;
+  color: white;
+}
+
+.some-color {
+  display: flex;
+  border: 2px solid red;
+  width: 90%;
+  margin: 0rem 4rem;
+  height: 80vh;
+}
+
+.some-color_img {
+  width: 60%;
+}
+
+.some-color_pp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  width: 40%;
+}
+
+.explore {
+  margin: auto;
+  border: 3px solid navajowhite;
+  width: 90%;
+  height: 70vh;
+}
+
+.explore h2 {
+  font-size: 3.5rem;
+  padding: 3rem 0rem 0rem 0rem;
+}
+
+.explore p {
+  font-size: 1.3rem;
+  padding: 3rem 40rem 0rem 0rem;
+}
+
+.magazines {
+  width: 100%;
+  background: #cdbefd;
+}
+
+.magazines_first_dv {
+  display: flex;
+  padding: 3rem 0rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.magazines_pp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid blue;
+  width: 42%;
+  padding: 7rem;
+}
+
+.magazines_pp h2 {
+  padding: 0.5rem 0rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.magazines_img {
+  width: 58%;
+  border: 2px solid black;
+}
+
+.ul__list li {
+  margin: 0.6rem;
+}
+
+.includes {
+  display: flex;
+  border: 2px solid violet;
+  margin-left: 6rem;
+  width: 90%;
+  height: 95vh;
+}
+
+.includes_img {
+  width: 50%;
+  border: 4px solid gold;
+}
+
+.includes_pp {
+  padding: 7rem 3rem;
+  width: 50%;
+  border: 4px solid gold;
+}
+
+.includes_pp h2 {
+  padding: 0rem 0rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.includes_pp a {
+  color: blue;
+  text-decoration: none;
+}
+
+.includes_pp p {
+  font-size: 1.2rem;
+  margin: 1rem 0rem;
+}
+
+.Intro {
+  padding: 0rem 1rem 2rem 0rem;
+}
+
+@media (max-width: 1270px) {
+
+  .live a {
+  font-size: small;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+.menu_header__2 a {
+  font-size: small;
+}
+
+.faster {
+  height: 170vh;
+  color: white;
+
+  font-size: 1.5rem;
+}
+
+.move_image {
+  width: 85%;
+  height: 80vh;
+}
+
+.instincts_black p {
+  padding: 7rem 4rem 0rem 0rem;
+}
+
+.instincts p {
+  font-size: 1.3rem;
+  padding: 7rem 4rem 0rem 0rem;
+}
+
 }
