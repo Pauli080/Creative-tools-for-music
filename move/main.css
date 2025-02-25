@@ -96,7 +96,13 @@ main {
 }
 
 .move_image {
-  border: 2px solid;
+  width: 85%;
+  height: 110vh;
+  margin: auto;
+  margin-top: 7rem;
+}
+
+.move_image_girl {
   width: 85%;
   height: 110vh;
   margin: auto;
@@ -106,11 +112,9 @@ main {
 img {
   width: 100%;
   height: 100%;
-  border: 2px solid red;
 }
 
 .instincts {
-  border: 3px solid turquoise;
   margin: 0rem 4rem;
   height: 60vh;
 }
@@ -125,7 +129,6 @@ img {
 }
 
 .instincts_black {
-  border: 3px solid turquoise;
   color: white;
   margin: 0rem 4rem;
   height: 60vh;
@@ -140,10 +143,12 @@ img {
   padding: 7rem 40rem 0rem 0rem;
 }
 
+.instincts_black a {
+  padding: 5rem 0rem 0rem 0rem;
+}
+
 .standalone {
   display: flex;
-
-  border: 4px solid teal;
   margin: 1rem 0rem;
   width: 100%;
   height: 80vh;
@@ -152,14 +157,12 @@ img {
 .standalone__other {
   display: flex;
   flex-direction: row-reverse;
-  border: 4px solid teal;
   margin: 1rem 0rem;
   width: 100%;
   height: 80vh;
 }
 
 .standalone-image {
-  border: 3px solid olive;
   width: 60%;
 }
 
@@ -196,7 +199,6 @@ img {
   width: 80%;
   height: 50vh;
   margin: auto;
-  border: 2px solid;
 }
 
 .pitches__img {
@@ -221,7 +223,6 @@ img {
 
 .some-color {
   display: flex;
-  border: 2px solid red;
   width: 90%;
   margin: 0rem 4rem;
   height: 80vh;
@@ -241,7 +242,6 @@ img {
 
 .explore {
   margin: auto;
-  border: 3px solid navajowhite;
   width: 90%;
   height: 70vh;
 }
@@ -272,7 +272,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid blue;
   width: 42%;
   padding: 7rem;
 }
@@ -285,7 +284,6 @@ img {
 
 .magazines_img {
   width: 58%;
-  border: 2px solid black;
 }
 
 .ul__list li {
@@ -294,7 +292,6 @@ img {
 
 .includes {
   display: flex;
-  border: 2px solid violet;
   margin-left: 6rem;
   width: 90%;
   height: 95vh;
@@ -302,13 +299,11 @@ img {
 
 .includes_img {
   width: 50%;
-  border: 4px solid gold;
 }
 
 .includes_pp {
   padding: 7rem 3rem;
   width: 50%;
-  border: 4px solid gold;
 }
 
 .includes_pp h2 {
@@ -332,37 +327,284 @@ img {
 }
 
 @media (max-width: 1270px) {
-
   .live a {
-  font-size: small;
-  text-decoration: none;
-  font-weight: 600;
-  color: black;
+    font-size: small;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+  }
+
+  .menu_header__2 a {
+    font-size: small;
+  }
+
+  .faster {
+    height: 170vh;
+    color: white;
+
+    font-size: 1.5rem;
+  }
+
+  .move_image {
+    width: 85%;
+    height: 80vh;
+  }
+
+  .move_image_girl {
+    width: 85%;
+    height: 70vh;
+  }
+
+  .instincts_black p {
+    padding: 7rem 4rem 0rem 0rem;
+  }
+
+  .instincts p {
+    font-size: 1.3rem;
+    padding: 7rem 4rem 0rem 0rem;
+  }
 }
 
-.menu_header__2 a {
-  font-size: small;
+@media (max-width: 1020px) {
+  .instincts {
+    height: 20vh;
+  }
+
+  .instincts h2 {
+    font-size: 2rem;
+  }
+
+  .instincts p {
+    font-size: 1.3rem;
+    padding: 1rem 4rem 0rem 0rem;
+  }
+
+  .faster {
+    height: 170vh;
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .standalone {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+  }
+
+  .standalone__other {
+    flex-direction: column;
+    margin: 1rem 0rem;
+    width: 100%;
+    height: 110vh;
+  }
+
+  .standalone-image {
+    width: 100%;
+  }
+
+  .standalone-pp {
+    flex-direction: column;
+    padding: 2rem 2rem;
+    width: 100%;
+  }
+
+  .standalone-pp p {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .pitches {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 95vh;
+    margin: 0;
+  }
+
+  .pitches__img {
+    width: 100%;
+  }
+
+  .pitches__pp {
+    width: 100%;
+    padding: 4rem 1rem 0rem 1rem;
+  }
+
+  .pitches__pp p {
+    font-size: 1.3rem;
+    padding: 2rem 0rem;
+  }
+
+  .learn {
+    padding: 5rem 0rem 5rem 0rem;
+  }
+
+  .some-color {
+    flex-direction: column;
+    width: 100%;
+    margin: 0rem 0rem;
+    height: 90vh;
+  }
+
+  .some-color_img {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .some-color_pp {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .some-color_pp a {
+    padding: 2rem 0rem;
+  }
+
+  .some-color_pp p {
+    padding: 2rem 0rem;
+  }
+
+  .instincts_black {
+    height: 40vh;
+  }
+
+  .instincts_black h2 {
+    font-size: 3rem;
+  }
+
+  .instincts_black p {
+    padding: 5rem 0rem 0rem 0rem;
+  }
+
+  .instincts_black a {
+    padding: 5rem 0rem 0rem 0rem;
+  }
+
+  .explore {
+    height: 50vh;
+  }
+
+  .explore h2 {
+    font-size: 2.5rem;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+
+  .explore p {
+    font-size: 1.3rem;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+
+  .magazines_first_dv {
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+  }
+
+  .magazines_pp {
+    width: 100%;
+    padding: 7rem;
+  }
+
+  .magazines_img {
+    width: 100%;
+  }
+
+  .includes {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid violet;
+    margin-left: 0rem;
+    width: 90%;
+    height: 175vh;
+  }
+
+  .includes_img {
+    width: 100%;
+    border: 4px solid gold;
+  }
+
+  .includes_pp {
+    padding: 5rem 3rem;
+    width: 100%;
+    border: 4px solid gold;
+  }
+
+  .menu_header__2 a {
+    font-size: small;
+    display: none;
+  }
 }
 
-.faster {
-  height: 170vh;
-  color: white;
+@media (max-width: 720px) {
+  .hallmark a {
+    font-size: 0.6rem;
+    font-weight: 700;
+    margin: 0rem 0.1rem;
+  }
 
-  font-size: 1.5rem;
-}
+  .faster {
+    padding: 10rem 0rem 0rem 0rem;
+    height: 150vh;
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+  }
 
-.move_image {
-  width: 85%;
-  height: 80vh;
-}
+  .faster p {
+    margin: 0.5rem 0rem;
+  }
 
-.instincts_black p {
-  padding: 7rem 4rem 0rem 0rem;
-}
+  .move_image {
+    height: 70vh;
+  }
 
-.instincts p {
-  font-size: 1.3rem;
-  padding: 7rem 4rem 0rem 0rem;
-}
+  .move_image_girl {
+    width: 100%;
+    height: 50vh;
+    margin: 0%;
+  }
 
+  .instincts_black {
+    height: 40vh;
+    margin: 1rem 2rem;
+    width: 90%;
+  }
+
+  .instincts {
+    margin: 0rem 2rem;
+    height: 30vh;
+  }
+
+  .instincts h2 {
+    font-size: 1.7rem;
+  }
+
+  .instincts p {
+    font-size: 1.3rem;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+
+  .pitches {
+    width: 90%;
+    height: 60vh;
+    margin: 0;
+  }
+
+  .standalone {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+  }
+
+  .standalone__other {
+    flex-direction: column;
+    margin: 1rem 0rem;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .includes {
+    height: 95vh;
+  }
 }
