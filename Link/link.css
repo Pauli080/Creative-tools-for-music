@@ -24,7 +24,13 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto;
   width: 100%;
+  max-width: 1630px;
 }
 
 .header-icon {
@@ -64,8 +70,8 @@ main {
 .faster {
   display: flex;
   flex-direction: column;
-  background: #0f03b3;
-  /* background: url(./images/poster-header-mobile_bg.avif) ; */
+  /* background: #038ab3; */
+  background: url(./link-images/header__bg.jpg) ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,6 +82,11 @@ main {
   color: white;
   font-weight: 200;
   font-size: 2rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 .faster h1 {
@@ -92,16 +103,642 @@ main {
   padding: 0.5rem 0rem;
 }
 
-.faster a {
-  color: white;
-  background: #0f03b3;
-  width: fit-content;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
+#everthing_one {
+    padding-bottom: 4rem;
+    margin-top: -7rem;
+    
 }
 
-#everthing {
-    border: 3px solid red;
-    margin-top: -5rem;
-    padding-top: 6rem;
+.acoustic_instruments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
 }
+
+.acoustic {
+    width: 50%;
+    background: white;
+    font-size: 2rem;
+    font-weight: 500;
+     /* height: 120vh; */
+    margin: 0rem 0rem 6rem 0rem;
+    padding: 5rem 4rem; 
+}
+
+.acoustic p {
+    padding: 1rem 2rem;
+}
+
+.acoustic a {
+    font-size: 1.3rem;
+    padding: 1rem 0rem 1rem 2rem;
+}
+
+.acoustic_image {
+    height: 60vh;
+    width: 50%;
+}
+
+#everthing_two {
+    width: 100%;
+}
+
+.session {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.session_image {
+    height: 110vh;
+    position: absolute;
+    width: 60vw;
+    left: 0rem;
+}
+
+.session_pp {
+    width: 50%;
+    color: white;
+     height: 150vh;
+    background: black;
+    padding: 20rem 5rem 20rem 15rem;
+    z-index: -2;
+}
+
+.session_pp p {
+    font-size: 1.3rem;
+}
+
+.session_pp h2 {
+    margin: 1rem 0rem;
+    font-size: 2rem;
+}
+
+.beyond {
+   display: flex;
+   flex-direction: row-reverse;
+   margin-bottom: 5rem;
+}
+
+.beyond_pp {
+    width: 40%;
+    padding: 5rem;
+    font-size: 1.3rem;
+}
+
+.beyond_pp h2 {
+    margin: 1rem 0rem;
+    font-size: 2rem;
+}
+
+.beyond_image {
+    width: 60%;
+}
+
+.connect {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5rem;
+    position: relative;
+    height: 110vh;
+}
+
+.connect_image{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 60vw;
+    left: 0rem;
+}
+
+.connect_image-small{
+    /* height: 32%; */
+    width: 33.4%;
+}
+
+.connect_image-div {
+    display: flex;
+    width: 100%;
+    height: 33.4%;
+}
+
+.connect_pp p{
+    padding: 1rem 0rem ;
+}
+
+.connect_pp{
+    width: 50%;
+    padding: 20rem 5rem 15rem 15rem;
+    z-index: -2;
+}
+
+.application {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.application_image {
+    height: 110vh;
+    position: absolute;
+    width: 60vw;
+    right: 0rem;
+}
+
+.application_pp {
+    border: 2px solid #2a09e2a6;
+    width: 50%;
+    background: #D5B3FF;
+    padding: 15rem 11rem 15rem 5rem;
+    z-index: -2;
+}
+
+.subscribe {
+    font-weight: 600;
+    margin: 1rem 0rem;
+}
+
+.application_pp p {
+    font-size: 1.3rem;
+}
+
+.application_pp a {
+    font-size: 1.3rem;
+}
+
+.explore {
+    margin: 2rem 0rem;
+}
+
+.button {
+    background: blue;
+     margin: 1rem 0rem;
+     color: white;
+     padding: 0.8rem;
+}
+
+
+input {
+    height: 8vh;
+    width: 25vw;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width: 1200px) {
+   
+    header a {
+  margin: 0.3rem;
+}
+
+.hallmark a {
+  font-weight: 400;
+}
+
+.for-free {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.register {
+   font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.acoustic p {
+    padding: 1rem 2rem;
+}
+
+.session_pp {
+    padding: 20rem 2rem 10rem 11rem;
+}
+
+}
+
+@media (max-width: 1120px) {
+
+    #everthing_one {
+    /* height: 100vh; */
+}
+
+.acoustic p {
+    padding: 1rem 2rem;
+}
+
+.acoustic a {
+    font-size: 1.1rem;
+    padding: 1rem 0rem 1rem 2rem;
+}
+
+.acoustic_image {
+    height: 50vh;
+}
+    .acoustic {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 5rem 3rem; 
+}
+
+.session_image {
+    height: 90vh;
+}
+
+.session_pp p {
+    font-size: 1.3rem;
+}
+
+.session_pp h2 {
+    margin: 1rem 0rem;
+    font-size: 1.5rem;
+}
+
+.session_pp {
+     height: 120vh;
+    padding: 20rem 2rem 20rem 11rem;
+}
+
+.beyond_pp {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+}
+
+.beyond_pp h2 {
+    margin: 1rem 0rem;
+    font-size: 1.3rem;
+}
+
+.connect {
+    height: 110vh;
+}
+
+.connect_image{
+    height: 90vh;
+}
+
+
+.connect_pp{
+    padding: 15rem 4rem 15rem 10rem;
+}
+
+.connect_pp p{
+    padding: 1rem 0rem ;
+}
+
+.application_image {
+    height: 90vh;
+}
+
+.application_pp {
+    padding: 10rem 11rem 10rem 5rem;
+}
+
+.application_pp p {
+    font-size: 1.1rem;
+}
+
+.application_pp a {
+    font-size: 1.1rem;
+}
+
+}
+
+@media (max-width: 1020px) {
+  header a {
+  margin: 0.2rem;
+}
+
+.for-free {
+    display: none;
+}
+
+.register {
+    display: none;
+}
+
+#everthing_one {
+    /* height: 110vh; */
+}
+
+.acoustic p {
+    padding: 1rem 0rem;
+}
+
+.acoustic a {
+    font-size: 1.1rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.acoustic_image {
+    height: 50vh;
+}
+
+    .acoustic {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 5rem 3rem; 
+}
+
+.beyond_image {
+    margin-top: 1.5rem;
+    width: 55%;
+    height: 36vh;
+}
+
+.beyond_pp h2 {
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+.beyond {
+    margin-top: 3rem;
+}
+
+.beyond_pp {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+.application_image {
+    height: 65vh;
+}
+
+.application_pp {
+    padding: 3rem 10rem 3rem 5rem;
+}
+
+.application_pp h2 {
+    font-size: 1rem;
+}
+
+.application_pp p {
+    font-size: 0.8rem;
+}
+
+.application_pp a {
+    font-size: 1rem;
+}
+
+.connect {
+    height: 110vh;
+}
+
+.connect_image{
+    height: 80vh;
+}
+
+
+.connect_pp{
+    padding: 10rem 4rem 10rem 10rem;
+}
+
+.connect_pp h2{
+    font-size: large;
+
+}
+
+.session_image {
+    height: 65vh;
+}
+
+.session_pp p {
+    font-size: 1.1rem;
+}
+
+.session_pp {
+     height: 90vh;
+    padding: 7rem 2rem 10rem 8rem;
+}
+
+}
+
+@media (max-width: 770px) {
+
+    .faster {
+  align-items: flex-start;
+  padding: 2rem 1rem 4rem 5rem;
+  font-size: 0.5rem;
+}
+
+.faster h1 {
+  font-size: 4rem;
+}
+
+.faster p {
+  font-size: 4rem;
+}
+
+#everthing_one {
+    /* height: 100vh; */
+    margin-top: -7rem;
+    
+}
+
+.acoustic_instruments {
+    flex-direction: column;
+    width: 100%;
+}
+
+.acoustic {
+    width: 100%;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 3rem 2rem; 
+}
+
+.acoustic p {
+    padding: 1rem 2rem;
+}
+
+.acoustic a {
+    font-size: 1.2rem;
+    padding: 1rem 0rem 1rem 2rem;
+}
+
+.acoustic_image {
+    width: 100%;
+}
+
+.session {
+    flex-direction: column;
+}
+
+.session_image {
+    height: 100vh;
+    width: 100%;
+}
+
+.session_pp {
+    width: 100%;
+     height: 150vh;
+    padding: 2rem 2rem;
+}
+
+.session_pp p {
+    font-size: 1.1rem;
+}
+
+.session_pp h2 {
+    font-size: 1.5rem;
+}
+
+.beyond {
+   display: flex;
+   flex-direction: column-reverse;
+   margin-bottom: 5rem;
+}
+
+.beyond_pp {
+    width: 100%;
+    padding: 4rem;
+    font-size: 1rem;
+}
+
+.beyond_pp h2 {
+    margin: 1rem 0rem;
+    font-size: 1.3rem;
+}
+
+.beyond_image {
+    width: 100%;
+    height: 60vh;
+}
+
+.connect {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    height: 110vh;
+}
+
+.connect_image{
+    position: inherit;
+    width: 100%;
+}
+
+.connect_pp p{
+    padding: 1rem 0rem ;
+}
+
+.connect_pp{
+    width: 100%;
+    padding: 2rem 3rem ;
+}
+
+.application {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+.application_image {
+    position: initial;
+    width: 100%;
+}
+
+.application_pp {
+    width: 100%;
+    padding: 5rem 4rem ;
+}
+
+.subscribe {
+    font-weight: 600;
+    margin: 1rem 0rem;
+}
+
+.application_pp p {
+    font-size: 1rem;
+}
+
+.application_pp a {
+    font-size: 1rem;
+}
+
+.button {
+    background: blue;
+     margin: 1rem 0rem;
+     color: white;
+     padding: 0.8rem;
+}
+
+
+input {
+    height: 6vh;
+    width: 50vw;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+header a {
+    margin: 0;
+}
+
+.hallmark a {
+     font-size: small;
+}
+
+}
+
+@media (max-width: 500px) {
+
+    .faster h1 {
+  font-size: 2rem;
+}
+
+.faster p {
+  font-size: 2rem;
+}
+
+header a {
+  margin: 0.1rem;
+}
+
+.header-icon {
+  width: 3rem;
+  display: flex;
+}
+}
+/* @media (max-width: 1630px) {
+ 
+    .acoustic {
+    height: 90vh;
+    padding: 5rem 5rem; 
+}
+
+#everthing_one {
+    height: 100vh;
+}
+
+.session_image {
+    height: 70vh;
+    width: 60rem;
+}
+
+.session_pp {
+     height: 100vh;
+}
+
+.connect {
+    border: 9px solid #ff0000;
+     height: 110vh;
+}
+
+.connect_image{
+    height: 100vh;
+    width: 60rem;
+}
+
+.application_image {
+    height: 70vh;
+    width: 60rem;
+}
+
+
+
+} */
