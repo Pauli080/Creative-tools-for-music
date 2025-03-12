@@ -30,7 +30,7 @@ main {
     justify-content: center;
     margin: auto;
   width: 100%;
-  max-width: 1630px;
+  /* max-width: 1630px; */
 }
 
 .header-icon {
@@ -243,20 +243,21 @@ img {
     justify-content: flex-end;
     align-items: center;
     position: relative;
+    /* height: 200vh; */
 }
 
 .application_image {
-    height: 110vh;
+    height: 100vh;
     position: absolute;
     width: 60vw;
     right: 0rem;
 }
 
 .application_pp {
-    border: 2px solid #2a09e2a6;
     width: 50%;
+     height: 150vh;
     background: #D5B3FF;
-    padding: 15rem 11rem 15rem 5rem;
+    padding: 10rem 11rem 10rem 5rem;
     z-index: -2;
 }
 
@@ -292,6 +293,13 @@ input {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 1950px) {
+
+    .application_pp {
+    padding-top: 20rem;
+}
+}
+
 
 @media (max-width: 1200px) {
    
@@ -325,8 +333,6 @@ input {
 
 @media (max-width: 1120px) {
 
-    #everthing_one {
-    /* height: 100vh; */
 }
 
 .acoustic p {
@@ -342,7 +348,7 @@ input {
     height: 50vh;
 }
     .acoustic {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 5rem 3rem; 
 }
@@ -376,11 +382,11 @@ input {
 }
 
 .connect {
-    height: 110vh;
+    height: 80vh;
 }
 
 .connect_image{
-    height: 90vh;
+    height: 80vh;
 }
 
 
@@ -393,11 +399,12 @@ input {
 }
 
 .application_image {
-    height: 90vh;
+    height: 75vh;
 }
 
 .application_pp {
     padding: 10rem 11rem 10rem 5rem;
+     height: 100vh;
 }
 
 .application_pp p {
@@ -408,7 +415,6 @@ input {
     font-size: 1.1rem;
 }
 
-}
 
 @media (max-width: 1020px) {
   header a {
@@ -423,9 +429,6 @@ input {
     display: none;
 }
 
-#everthing_one {
-    /* height: 110vh; */
-}
 
 .acoustic p {
     padding: 1rem 0rem;
@@ -471,7 +474,8 @@ input {
 }
 
 .application_pp {
-    padding: 3rem 10rem 3rem 5rem;
+    padding: 10rem 10rem 3rem 5rem;
+    height: 95vh;
 }
 
 .application_pp h2 {
@@ -487,7 +491,7 @@ input {
 }
 
 .connect {
-    height: 110vh;
+    height: 80vh;
 }
 
 .connect_image{
