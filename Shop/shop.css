@@ -286,6 +286,11 @@ img {
   font-size: 1.1rem;
 }
 
+ .live a {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
 }
 
 @media (max-width: 1120px) {
@@ -495,6 +500,9 @@ img {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1280px) {
+
+ 
+
 
 }
