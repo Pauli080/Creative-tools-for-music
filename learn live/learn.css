@@ -1,0 +1,250 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+}
+
+header a {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding: 1.1rem;
+  font-size: small;
+  align-items: center;
+  justify-content: space-between;
+  height: 11vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  max-width: 1630px;
+}
+
+.header-icon {
+  width: 4rem;
+  display: flex;
+}
+
+.hallmark {
+  /* width: 4rem; */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid beige;
+}
+
+.hallmark a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+.for-free {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0f03b3;
+}
+
+.register {
+  font-size: large;
+  font-weight: 600;
+  color: black;
+}
+
+.hallmark h3 {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.features {
+    padding: 1rem 2rem;
+}
+
+.features a {
+    padding-right: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: black;
+}
+
+#get-started {
+    border: 2px solid navajowhite;
+    padding: 6rem;
+    margin-top: 1rem;
+}
+
+#get-started-two {
+    border: 2px solid navajowhite;
+    padding: 0rem 6rem 6rem;
+}
+
+.started {
+    font-size: 1.8rem;
+}
+
+.jump {
+    display: flex;
+    border: 2px solid saddlebrown;
+    padding: 2rem 0rem;
+}
+
+.jump a {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    color: blue;
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.abl-gridfiex-abl {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  height: 40vh;
+  margin: 3rem 0rem;
+}
+
+.new-in-live {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid;
+  width: 30%;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.new-in-live h3 {
+  width: 100%;
+  padding: 0.5rem 0rem;
+}
+
+.new {
+  background: black;
+  color: white;
+  width: 7rem;
+  font-size: 0.9rem;
+}
+
+.new-p {
+  background: #bebebe;
+  width: 3rem;
+  padding: 5px 0px;
+}
+
+.new-in-live-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border: 2px solid;
+  width: 100%;
+  background: yellow;
+}
+
+.new-in-live-two-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  border: 2px solid ;
+  width: 100%;
+  background: yellow;
+}
+
+.new-in-live-two-Setup {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  border: 2px solid;
+  width: 100%;
+  background: #1ac553;
+}
+
+.new-in-live-two-interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  border: 2px solid;
+  width: 100%;
+  background: #575ad8;
+}
+
+.new-in-live-two-effects {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  border: 2px solid;
+  width: 100%;
+  background: #d66029;
+}
+
+.play_svg {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fdffd9;
+  position: absolute;
+  background: blue;
+  border-radius: 50%;
+  width: 20%;
+  height: 30%;
+}
+
+.play_svg img {
+  background: yellow;
+  width: 30%;
+  height: 30%;
+  filter: invert();
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+  color: blue;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.show h3 {
+  font-weight: 500;
+}
+
+.plus {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.imagess {
+  display: flex;
+  width: 50%;
+  height: 83%;
+  align-self: flex-end;
+  position: absolute;
+}

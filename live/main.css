@@ -45,7 +45,6 @@ main {
 }
 
 .for-free {
-  font-size: 1.3rem;
   font-weight: 700;
   color: #0f03b3;
 }
@@ -83,7 +82,8 @@ main {
   background: #0f03b3;
   width: fit-content;
   padding: 0.5rem 1rem;
-  font-weight: bolder;
+  font-weight: 1rem;
+  text-decoration: none;
 }
 
 .faster h1 {
@@ -107,7 +107,7 @@ span {
   justify-content: center;
   align-items: center;
   /* border: 2px solid; */
-  height: 50vh;
+  height: 55vh;
 }
 
 .updated__02 {
@@ -119,22 +119,33 @@ span {
   width: 82%;
   height: 100%;
   font-size: 1.5rem;
-  background: #cdbefd;
+  font-weight: 200;
+  background: #b6ffc0;
+}
+
+.updated__02 h3 {
+  font-weight: 500;
 }
 
 .updated__02 a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
   margin-top: 1rem;
+  color: blue;
 }
 
 .get-lost-in-live {
   display: flex;
   width: 100%;
-  padding: 0rem 8rem;
+  padding: 0rem 7rem 0rem 7rem;
   font-size: 1.5rem;
   align-items: center;
-  height: 40vh;
+  height: 50vh;
+}
+
+.get-lost-in-live h2 {
+  font-weight: 450;
 }
 
 .big_image {
@@ -148,7 +159,7 @@ span {
 }
 
 .the_image {
-  width: 83%;
+  width: 100%;
   height: 90vh;
 }
 
@@ -169,22 +180,26 @@ span {
   font-size: 1.5rem;
   justify-content: center;
   padding: 0rem 7rem;
+  margin-top: 3rem;
 }
 
 .possible h3 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 2.3rem;
   margin-bottom: 1rem;
 }
 
 .Jump-to {
   display: flex;
+  margin: 2rem 0rem;
 }
 
 .Jump-to a {
   display: flex;
-  margin: 0rem 0.5rem;
-  font-size: large;
+  margin: 0.4rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: blue;
   text-decoration: none;
 }
 
@@ -192,7 +207,7 @@ span {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background: wheat;
+  background: #ebf0dc;
   align-items: center;
 }
 
@@ -201,9 +216,9 @@ span {
 }
 
 .play-freely__2 h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin: 5rem 0rem;
+  font-size: 3.3rem;
+  font-weight: 500;
+  margin: 6rem 0rem;
 }
 
 .reshape {
@@ -214,15 +229,21 @@ span {
 
 .generate {
   width: 50%;
-  font-size: 1.5rem;
-  padding: 0rem 2rem 0rem 0rem;
+  font-size: 1.2rem;
+  padding: 0rem 4rem 0rem 0rem;
+}
+
+.generate h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1rem 0rem;
 }
 
 .transfarm {
   display: flex;
   width: 83%;
   height: 60vh;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 .transfarm_big {
@@ -239,8 +260,12 @@ span {
   justify-content: center;
   width: 50%;
   height: 50vh;
-  padding: 1rem;
+  padding: 1rem 3rem;
   /* border: 2px solid; */
+}
+
+.additional h2 {
+  padding: 1rem 0rem;
 }
 
 .additional_big {
@@ -252,11 +277,26 @@ span {
   padding: 1rem;
 }
 
+.pppp {
+  padding: 1rem 8rem;
+  font-size: 1.2rem;
+}
+
+.additional_big h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+
 .surprise {
   display: flex;
   justify-content: center;
   padding: 7rem;
   font-size: 2.3rem;
+}
+
+.surprise h2 {
+  font-weight: 500;
 }
 
 .lose_yourself {
@@ -277,14 +317,19 @@ span {
 .lose_yourself__2 {
   width: 100%;
   height: 40vh;
-  padding: 0rem 8rem 2rem 8rem;
+  padding: 0rem 15rem 2rem 8rem;
   margin: 2rem 0rem;
+}
+
+.lose_yourself__2 h3 {
+ font-size: 2.3rem;
+ font-weight: 500;
 }
 
 .lose_yourself__2 p {
   margin: 2rem 2rem 2rem 0rem;
   width: 60%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .lose_yourself__2 a {
@@ -296,7 +341,7 @@ span {
 .lose_yourself p {
   margin: 2rem 2rem 2rem 0rem;
   width: 60%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .program_each_listen {
@@ -313,10 +358,18 @@ span {
   margin: 1rem 0rem;
 }
 
+.program p {
+  font-size: small;
+}
+
 .each {
-  width: 70%;
+  width: 60%;
   height: 30vh;
   margin: 1rem 0rem;
+}
+
+.each p {
+ font-size: small;
 }
 
 .listen {
@@ -336,21 +389,37 @@ span {
   align-items: center;
   justify-content: center;
   width: 85%;
-  border: 4px solid blue;
+  border: 2px solid blue;
   color: blue;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-top: 1rem;
+  margin-bottom: 3rem;
   padding: 1.5rem 0rem;
 }
 /* repeat(3 ,70vh 1fr) */
 .lost-and_found {
   display: grid;
   grid-template-columns: repeat(2, 45%);
-  grid-template-rows: 90vh 90vh 90vh;
+  grid-template-rows: 130vh 130vh 130vh;
   gap: 3rem;
   width: 83%;
   justify-self: center;
+}
+
+.performance h3 {
+  font-size: 2.5rem;
+}
+
+.performance p {
+  font-size: 1.2rem;
+  padding: 1rem 0rem;
+}
+
+.performance a {
+  font-size: 1rem;
+  color: blue;
+  text-decoration: none;
 }
 
 .image {
@@ -425,6 +494,21 @@ span {
 .mumu-image {
   width: 100%;
 }
+
+.see-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.see-all h3 {
+  font-size: 1.8rem;
+  color: blue;
+  padding: 6rem;
+  border-bottom: 2px solid black;
+}
+
+
 
 @media (max-width: 1025px) {
   .reshape {

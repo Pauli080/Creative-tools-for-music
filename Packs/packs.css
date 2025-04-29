@@ -88,6 +88,11 @@ main {
    padding: 2rem 0rem;
 }
 
+img {
+  height: 100%;
+  width: 100%;
+}
+
 .Instruments {
   display: flex;
   /* padding: 1.1rem; */
@@ -144,14 +149,20 @@ main {
 }
 
 .robert {
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 0.8rem;
+    font-weight: 500;
     margin: 1rem 0rem 1rem;
 }
 
 .max {
   font-size: 0.8rem;
-    color: #FF5157;
+  color: #FF5157;
+  text-decoration: none;
+}
+
+.sounds {
+  color: #00d2be;
+  text-decoration: none;
 }
 
 .sequencers {
@@ -173,10 +184,32 @@ main {
 }
 
 .suite {
+  font-size: 0.8rem;
   display: flex;
   position: absolute;
   bottom: 0;
  
+}
+
+.suite-usd {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+}
+
+.suite-usd p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+button {
+  width: 9vw;
+  height: 7vh;
+  font-size: 1.2rem;
+  color: white;
+  background: blue;
+  margin-top: 0.5rem;
 }
 
 .robert-suite {

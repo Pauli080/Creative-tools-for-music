@@ -1,0 +1,235 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+}
+
+header a {
+  margin: 1rem;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding: 1.1rem;
+  font-size: small;
+  align-items: center;
+  justify-content: space-between;
+  height: 11vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  max-width: 1630px;
+}
+
+.header-icon {
+  width: 4rem;
+  display: flex;
+}
+
+.hallmark {
+  /* width: 4rem; */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid beige;
+}
+
+.hallmark a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+.for-free {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0f03b3;
+}
+
+.register {
+  font-size: large;
+  font-weight: 600;
+  color: black;
+}
+
+.hallmark h3 {
+  display: none;
+}
+
+.features {
+    padding: 1rem 2rem;
+}
+
+.features a {
+    padding-right: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: black;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.need-help {
+  font-size: 3rem;
+  padding: 7rem;
+}
+
+#everthing {
+  padding: 0rem 2rem;
+}
+
+.knowledge {
+  display: flex;
+  width: 100%;
+  border: 2px solid saddlebrown;
+}
+
+.suggested {
+  width: 50%;
+}
+
+.suggested h3 {
+  font-size: 1.5rem;
+  padding: 1.5rem 0rem;
+}
+
+.suggested a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: blue;
+}
+
+.whatsnew {
+  display: flex;
+  flex-direction: column;
+}
+
+.base {
+  width: 50%;
+  padding: 0rem 6rem;
+}
+
+.base h3 {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.base p {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.base a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.search {
+  margin: 2rem 0rem ;
+  font-weight: 800;
+}
+
+.find {
+  margin: 1rem 2rem 2rem 0rem;
+  font-weight: 300;
+}
+
+
+.learn-live {
+  display: flex;
+  width: 100%;
+}
+
+.tutorials {
+  padding: 4rem 0rem;
+  border: 2px solid seagreen;
+  height: fit-content;
+  width: 50%;
+  margin: 0rem 4rem;
+}
+
+.tutorials-image {
+  height: 50vh;
+}
+
+.tutorials-pp h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0rem;
+}
+
+.tutorials-pp p {
+  font-size: 1.2rem;
+  padding: 1rem 0rem;
+}
+
+.tutorials-pp a {
+  font-size: 1.1rem;
+  padding: 1rem 0rem;
+  color: blue;
+  text-decoration: none;
+}
+
+#resources h2 {
+  padding: 3rem 6rem;
+  font-size: 2.5rem;
+}
+
+.learning {
+  display: flex;
+  width: 100%;
+  padding: 2rem 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 100vh;
+}
+
+.manual {
+  width: 50%;
+  padding: 0rem 4rem;
+}
+
+.manual h3 {
+   padding: 1rem 0rem;
+}
+
+.manual p {
+   padding: 1rem 0rem;
+}
+
+.manual a {
+   text-decoration: none;
+   color: blue;
+} 
+
+.check {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.check a {
+  margin: 0.5rem 0rem;
+}
+
+.palermo {
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+  background: #b1c5ff;
+}
